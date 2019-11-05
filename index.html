@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous"></script>
+   
+  <script src="assets/js/game.js"></script>
+
+<title>Unit 4 Game</title>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Crystals Gems Collector!</h1>
+  </div>
+
+  <div id="instructions">
+    <br>
+      You will be given a random number at the start of each game.
+    <br>
+    <br>
+      There are four Crystal Gems below. By clicking on a Crystal Gem you will add a
+      specific amount of points to your total score.
+    </br>
+    <br>
+      You win the game by matching your total score to the random number, but you
+      lose the game if your total score goes above the random number.
+    </br>
+    <br>
+      The value of each Crystal Gem is hidden from you until you click on it.
+    </br>
+    <br>
+      The values of the Crystal Gems will be different every game.
+    </br>
+  </div>
+
+  <div></div>
+  <div id="randwin">
+    <div id="random">
+      
+    </div>
+
+    <div id="win_lose">
+      <div id="result"></div>
+      <div id="divWin">Wins: <span id="wins"></span></div>
+      <div>Losses: <span id="losses"></span></div>
+    </div>
+  </div>
+
+  <div id="gems">
+    <img id="Garnet" src="assets/images/Garnet.png" alt="" />
+    <img id="Amethyst" src="assets/images/amethyst.png" alt="" />
+    <img id="pearl" src="assets/images/pearl.png" alt="" />
+    <img id="steven" src="assets/images/steven.png" alt="" />
+  </div>
+
+  <div id="score">Total score: <span id="scoreVal"></span></div>
+
+ 
+</body>
+
+</html>

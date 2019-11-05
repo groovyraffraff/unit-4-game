@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Crewniverse Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Crewniverse Medium'), url('crewniverse_font.woff') format('woff');
+  }
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-x;
+}
+h1 {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  max-width: 50%;
+  margin-left: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Crewniverse Medium', normal;
+        font-size: 50px;
+    background: -webkit-linear-gradient(#fef9d5, #fedc52);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 4px #10133a;
+    color: white;
+    text-align: center;
+    margin-left: 1vw;
+    size: auto ;
+}
+
+#instructions {
+  display: inline-block;
+  background-color: tan;
+  margin: 10px;
+  padding: 10px;
+  max-width: 50%;
+  background-color: rgba(224, 255, 255, 0.5);
+}
+
+#randwin {
+  width: 600px;
+  overflow: hidden;
+  color: #10133a;
+    font-family: 'Crewniverse Medium', normal;
+    font-size: auto;
+    text-align:center;
+  
+}
+
+#random {
+  float: left;
+  background-color: rgba(224, 255, 255, 0.5);
+  margin: 10px;
+  height: 100px;
+  width: 175px;
+  padding: 10px;
+  font-size: 100px;
+  text-align: center;
+  
+  
+}
+
+#win_lose {
+  float: left;
+  height: 100px;
+  width: 175px;
+  background-color: rgba(224, 255, 255, 0.5);
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+}
+
+#result,
+
+#divWin {
+  margin-bottom: 20px;
+}
+
+#gems {
+  padding: 10px;
+}
+
+#Garnet, #Amethyst, #pearl, #steven {
+max-width: 15%;
+max-height: 15%;
+}
+
+#score {
+  display: inline-block;
+  background-color: rgba(224, 255, 255, 0.5);
+  margin: 10px;
+  padding: 10px;
+  color: #10133a;
+  font-family: 'Crewniverse Medium', normal;
+  font-size: 24px;
+
+}
